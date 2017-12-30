@@ -1,0 +1,137 @@
+.column11, .column12, .column13, .column21, .column22, .column23, .column31, .column32, .column33 {
+    font-size: 500%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+    
+.column22 {
+    border: 1px solid yellow;
+}
+ 
+.column31 {
+    border-left: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.column32 {
+    border-left: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+.column33 {
+    border-left: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+.column21 {
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.column22 {
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+.column23 {
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+.column11 {
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.column12 {
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+.column13 {
+    border-right: 1px solid yellow;
+    border-top: 1px solid yellow;
+}
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td {
+    display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px;
+  overflow: hidden;
+  border: none;
+  font: normal 70px/1 "VT323", Helvetica, sans-serif;
+  color: rgba(255,255,0,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 5px 5px 0 rgba(255,0,0,1) ;
+}
+
+p {
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 13px;
+    border-radius: 20px;
+    background-color: black;
+    width: 400px;
+    height: auto;
+    border: 1px solid yellow;
+    text-shadow: 5px 5px 0 rgba(255,0,0,1) ;
+    color: rgba(255,255,0,1);
+}
+
+table {
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid yellow;
+}
+
+tr, td {
+    border-radius: 8px;
+}
+
+button {
+    background-color: black;
+    width: 400px;
+    height: 80px;
+    color: rgba(255,255,0,1);
+    text-shadow: 5px 5px 0 rgba(255,0,0,1) ;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+#player {
+    background-color: black;
+    width: 130px;
+    height: 80px;
+    color: rgba(255,255,0,1);
+    text-shadow: 5px 5px 0 rgba(255,0,0,1) ; 
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.left {
+    /* margin-left: -230px; */
+}
+
+.right {
+    /* margin-left: 230px;
+    /* Makes button only work on top and bottom :( 
+    margin-top: -80px; */
+}

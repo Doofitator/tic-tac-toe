@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="scripts.js">
+</script>
+    
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+<body onload="GetBG()" id="bg">
+    <div class="wrapper">
+        <p align="center" id="info">To play: Each player takes turns to click a space where they would like their token to be placed.</p>
+    <table align="center">
+  <tr>
+    <td class="column11" id="topleft" onclick="column11()">X</td>
+    <td class="column21" id="topmid" onclick="column21()">O</td>
+    <td class="column31" id="topright" onclick="column31()">X</td>
+  </tr>
+  <tr>
+    <td class="column12" id="midleft" onclick="column12()">X</td>
+    <td class="column22" id="midmid" onclick="column22()">X</td>
+    <td class="column32" id="midright" onclick="column32()">O</td>
+  </tr>
+  <tr>
+    <td class="column13" id="bottomleft" onclick="column13()">X</td>
+    <td class="column23" id="bottommid" onclick="column23()">X</td>
+    <td class="column33" id="bottomright" onclick="column33()">O</td>
+  </tr>
+</table>
+        <br>
+        <div align="center"><button id="starter" onclick="begin()">Let's go!</button></div>
+    </div>
+</body>
+</html>
